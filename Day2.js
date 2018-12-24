@@ -1,0 +1,44 @@
+const input = ['mphcuiszrnjzxwkbgdzqeoyxfa', 'mihcuisgrnjzxwkbgdtqeoylia', 'mphauisvrnjgxwkbgdtqeiylfa', 'mphcuisnrnjzxwkbgdgqeoylua', 'mphcuisurnjzxwkbgdtqeoilfi', 'mkhcuisvrnjzowkbgdteeoylfa', 'mphcoicvrnjzxwksgdtqeoylfa', 'mxhcuisvrndzxwkbgdtqeeylfa', 'dphcuisijnjzxwkbgdtqeoylfa', 'mihvuisvrqjzxwkbgdtqeoylfa', 'mphcuisrrnvzxwkbgdtqeodlfa', 'mphtuisdrnjzxskbgdtqeoylfa', 'mphcutmvsnjzxwkbgdtqeoylfa', 'mphcunsvrnjzswkggdtqeoylfa', 'mphcuisvrwjzxwkbpdtqeoylfr', 'mphcujsdrnjzxwkbgdtqeovlfa', 'mpfcuisvrdjzxwkbgdtteoylfa', 'mppcuisvrpjzxwkbgdtqeoywfa', 'mphcuisvrnjzxwkbfptqroylfa', 'mphcuisvrnjzxwkbgstoeoysfa', 'mphcufsvrnjzcwkbgdeqeoylfa', 'mphcuissrnjzxwkbgdkquoylfa', 'sphcuxsvrnjzxwkbgdtqioylfa', 'mphcuiivrhjzxwkbgdtqevylfa', 'echcuisvrnjzxwkbgltqeoylfa', 'mphcuisvrljexwkbvdtqeoylfa', 'mpjcuisvrnjzxwkhidtqeoylfa', 'mphcuisvrfjzmwkbgdtqeoylfl', 'mwhcuisvrnjzxwkbgdtqeoytfm', 'mphcuisvrsjzxwkbgdaqeoylfh', 'mohcuisvrnjzxwkbgdtqtoymfa', 'maycuisvrnjzxwkbgdtqboylfa', 'pphcuisvqnjzxwkbgdtqeoylfd', 'mprcuisvrnjtxwmbgdtqeoylfa', 'mfhcuisgrnjzxckbgdtqeoylfa', 'mphiubsvrnjzxwkbgdtqeoyufa', 'dphctisvrnjzxwkbgdtqeoylfk', 'mphcuisvrnjznwksgdtqeoyzfa', 'mpwcuisvrnjziwkbgdtqaoylfa', 'mphduzsvrnjznwkbgdtqeoylfa', 'mphccisvrnjzxwebgdtqeoylqa', 'xphcuisvrnjzxwkfvdtqeoylfa', 'mphcupsvrnjzxwkbgdtfeoylpa', 'mphcuisvrtjzjwkbgdtqeoylfe', 'mpbcuisvrnjzxwkbgdmieoylfa', 'mphcuisvrnjzxwkbgjtqetylaa', 'mphcuisvrnjzxwpbgdtgdoylfa', 'ophcufsvrqjzxwkbgdtqeoylfa', 'iphcuhsvrnjzxwkbgetqeoylfa', 'mphcuisvunjzxwwbgdtqeoylqa', 'mphcpisvrnjzowkbgdtveoylfa', 'mphcuisvrnjzxhkbgdtqeotlla', 'mphcuisvrnjzxwkbodtgeoylha', 'mphcuisvrjjzxwkbwdtqtoylfa', 'mphcwisvrnjnxwkbgjtqeoylfa', 'mplcuicqrnjzxwkbgdtqeoylfa', 'mphcuisvrnjzxydbgdtqeoylfn', 'ophckisvrnjzxwkbgdtqeozlfa', 'mphcuisvrkjzxwkbgdtteoblfa', 'yphcuisvrnjcxwkbggtqeoylfa', 'mphcuisvrnazxwfbqdtqeoylfa', 'mphcuisvrmjzxwkbgdtlwoylfa', 'mphctksvrnjzxwibgdtqeoylfa', 'mphcuisprnjzxlebgdtqeoylfa', 'mphcuisnrnjzxakbgdtueoylfa', 'mphcuiavrnjoxwtbgdtqeoylfa', 'nphcuisvrnjzxwkbgdtqzoylfk', 'mphcuisrrnjmxwkbgdtqdoylfa', 'mphcuisvrujzxwkvgdtqehylfa', 'mphcuisvrnfzxwkogdtqebylfa', 'mphcuisvrnjwdwkbgdtqeoyxfa', 'mphcuisvrntzxwkrgxtqeoylfa', 'mpzcuisvrnjzxwebgdtqeoylsa', 'aphcuikvrnjzxwwbgdtqeoylfa', 'mphcqisvrnjzxwkpgdtqeoelfa', 'mphcuusvrnjzxwkbgdtjeodlfa', 'mphcuisvrnjzewkbgdtteoylza', 'mphcuisvanjzxwkbgdtheoylfc', 'mphcjishrnjzxwkbgltqeoylfa', 'mpxcuislrnjzxwkbgdtqeoynfa', 'mphcuisvrnjjxwkbgdtmeoxlfa', 'mphcimsvrnjzxwkbsdtqeoylfa', 'mphcxisvcnjzxwjbgdtqeoylfa', 'mphcuisbrvjzxwkbgdtqeoymfa', 'mplcuisvrnjzxwkbgdtaenylfa', 'mphcuihvrnjzxwkygytqeoylfa', 'mphcbisvrnjzxhkbgdtqezylfa', 'mphcuisarnjzxwkbgatqeoylfv', 'mphcumsvrnjzxwkbgdrqebylfa', 'mlhcuisvrnwzxwkbgdtqeoylfx', 'mpkcuisvrkjzxwkbgdtqeoylfo', 'mphcuissrnjzxwkbgdtqmoylfc', 'mphcuiwvrnjuxwkfgdtqeoylfa', 'mphcuicvlnjzxwkbgdvqeoylfa', 'mphcuisvrvvzxwkbfdtqeoylfa', 'myhcuisvrnjpxwkbgntqeoylfa', 'mpocuisvrnjzxwtbgitqeoylfa', 'mphcuisvrnjzxwkbgdtwewyqfa', 'mphcuisvtnjzxwwbgdtqeoolfa', 'mphcuisvrnjzxgkbgdyqeoyyfa', 'mphcuisvrdjzxwkbgpyqeoylfa', 'bphcuisvrnjzxwkbgxtqefylfa', 'sphcuisvrdjzxwktgdtqeoylfa', 'mphcuvsvrnjmxwobgdtqeoylfa', 'mphcuisvrnjzxwkbsdtqeuylfb', 'mnhcmisvynjzxwkbgdtqeoylfa', 'mphckisvrnjzxwkhgdkqeoylfa', 'mpacuisvrnjzxwkbgdtqeoolaa', 'mpgcuisvrnjzxwkbzdtqeoynfa', 'mphcuisvrojzxwkbzdtqeoylga', 'mphcuisvknjfxwkbydtqeoylfa', 'mphcuistrnjzxwkbgdqqeuylfa', 'bpvcuiszrnjzxwkbgdtqeoylfa', 'mphcuxsvrnjzswkbgdtqeoelfa', 'mphcuisvbnjzxwlbgdtqeoylla', 'mphcuisvonczxwkbgktqeoylfa', 'mphcuisvrnkzxwvbgdtquoylfa', 'mphcuisvrnjzxokfgdtqeoylia', 'tphcuisvrnjzxwkbjdwqeoylfa', 'mihcuisvrnjzpwibgdtqeoylfa', 'mphcuisvrejzxwkbgdtqjuylfa', 'mprcuisvrnjixwkxgdtqeoylfa', 'mpqcuiszrnjzxwkbgdtqeodlfa', 'mphcuasvrnjzzakbgdtqeoylva', 'mphcuisvrnjzmwkbtdtqeoycfa', 'mphcuisvrnjzxwkbcdtqioylxa', 'mphckisvrnjzxwkbcdtqeoylfm', 'mphcuisvrnjuxwbogdtqeoylfa', 'mphcuisdrnjzxwkbldtqeoylfx', 'mphcuisvrnjoxwkbgdtqeyyyfa', 'mphcuicvqnjzxwkbgdtqeoylna', 'mpmcuisvrnjzxwkbgdtqktylfa', 'mphcuisvrnqzxwkggdtqeoykfa', 'mphcuisvryjzxwkbydtqejylfa', 'mphcugsvrnjzxwkbghtqeeylfa', 'rphcuusvrnjzxwkwgdtqeoylfa', 'zphwuiyvrnjzxwkbgdtqeoylfa', 'cphcuivvrnjzxwkbgdtqenylfa', 'mphcuisvrnjzxwkagotqevylfa', 'mprcuisvrcjzxwkbgdtqeoytfa', 'mphjugsvrnezxwkbgdtqeoylfa', 'mphcuisvryjzxwkbgltqeoylaa', 'mphcursvrnjzxfkbgdtqeoydfa', 'mphcuisvrcuzxwkbgdtqeoylfw', 'mphcuisvrijzxwkbgdtqeoelfh', 'xphcuisvenjzxjkbgdtqeoylfa', 'mphcuisvrnazxwkbgdeqeoylaa', 'mphcuisbrsjzxwkbgdtqeoygfa', 'mlhvuisvrnjzxwkbgdtqeoylfh', 'mphcuisvrnjzxukbgdtqeoyhfy', 'mpzcuilvrnjzawkbgdtqeoylfa', 'hphcuisjfnjzxwkbgdtqeoylfa', 'mahcuisvrnjzxwkegdtqeoylfi', 'mphcuixvrnjzcwkbgdtqetylfa', 'mphcuisvrnjzxwkdgdtqeoklfj', 'mlhcuisvrnjzxwkbgdteeoylka', 'mphcuifvrnjbxwkrgdtqeoylfa', 'mphcuasvrnjzzwkbgdtqeoylva', 'mphcuisvrnjzxwkboutqeoylba', 'mbhcuisvcnjzxwklgdtqeoylfa', 'mpbcuisvrnjzxgkbgdtqesylfa', 'mphcuisvrnjfswkbgdtqeoylfd', 'mphcuisvrnjzxwkbgdoweoysfa', 'uphcuisvrnjzrwkbgdtqelylfa', 'mphcuisvrnjzxwkbgdtqyoylsi', 'mpqcuiqvxnjzxwkbgdtqeoylfa', 'mphcuisorfjzxwkbgatqeoylfa', 'mphcuisvrntfxwkbzdtqeoylfa', 'mphcuisvrnrzxwkbgdtueoylfl', 'mphcuisvrnjzewkagdtyeoylfa', 'mpocuisdrnjzxwkbgdtqeozlfa', 'mphcuisvrnjjxwkbgdtoeoylfm', 'mphcuisvenjzxwkbgdtqwoylza', 'mpmcuisvrnjzxwkbgdtqeoxlfr', 'mphcuisvgnjhxwkbgdtqeoplfa', 'mphcuisvrnjzowkdgdtqeoyyfa', 'mphcuisqynjzxwkbgdtqeoylda', 'hphcuisvgnjzxwkbgdtbeoylfa', 'iphcuipvrnuzxwkbgdtqeoylfa', 'mphcuisvrnjzsikbpdtqeoylfa', 'mpwcuhsvrnjzxbkbgdtqeoylfa', 'mnhjuisvcnjzxwkbgdtqeoylfa', 'mphcudsvrnjzxwkbgdtqloilfa', 'mpncuiwvrwjzxwkbgdtqeoylfa', 'mphcuisvrnjgawkbgdtqeoylya', 'mphcuisvrnjzxwkbggtteoslfa', 'mphcuisvrnjzxwkbgdvqeoylpe', 'mphcuisvrnczxfkbgktqeoylfa', 'mphcuifvrnjzxwkbgdbmeoylfa', 'mphcuisvrnjytwkbgdtqeoylla', 'mphcuisvrnjzxwkbgdtjeoxlfn', 'mphjuisvrnjzxwkbghtqeoyffa', 'mphcuisvrnjzxkrbgdtqeoylaa', 'mphcbisvrnjzxwkbgttqeoylfs', 'mphkuksvbnjzxwkbgdtqeoylfa', 'nphcuidvrnjzxwhbgdtqeoylfa', 'mphguzsvrnjzxwkbgdaqeoylfa', 'mihcuisfrnjzxwkbgdtqhoylfa', 'mphcuisvrnrzxwpbgdtqesylfa', 'zphcuisvrnjzxwkbddtqeoylaa', 'mphcuigvmnjzxwkbgdtqeoylba', 'mjhcuisvrnjzxjkbgdtqeoylha', 'mphnuisvrnjznwkbgdtqnoylfa', 'mkhcuisvrnjcxwkbgdqqeoylfa', 'mphcuisvenjzxwbbqdtqeoylfa', 'qphcuisnrnjzawkbgdtqeoylfa', 'mphcuisvrdjzxwkbgdtqeoywca', 'mphcuzsvvnjzxwfbgdtqeoylfa', 'pphcuxsvrnjzxwkbgdtmeoylfa', 'mphiuvsvrnjzxlkbgdtqeoylfa', 'mphlqisvrnjzxkkbgdtqeoylfa', 'mmhcuisvrnjzxwkbgatqeoylea', 'mphduisrrnjoxwkbgdtqeoylfa', 'mphcuisvrnjnxwkvgdyqeoylfa', 'mphcuvsvrnjzxgkbgdtqeoylfz', 'mphcuisvryjzxwkbggtqkoylfa', 'iphcuisvrdjzxwkbgotqeoylfa', 'mphcuisvrnjzxwhbgdtqwoyofa', 'mphcorbvrnjzxwkbgdtqeoylfa', 'mghcuisvrnpzxykbgdtqeoylfa', 'mphauisvrnjnxwkbzdtqeoylfa', 'mphcgisvrnjzxwkwgdtqeoygfa', 'mphcuisvrnjzxwkggotqeoylba', 'mphcuesvrnjzxwkbgdwqebylfa', 'yphcuisvrnjzxwkbgdxqeoylja', 'ephyuisvrnjzywkbgdtqeoylfa', 'mfhcuisqrnjzxwkbgdlqeoylfa', 'mphkuisvrnjzxwkbertqeoylfa', 'mphcuusgrnjzxwkbggtqeoylfa', 'mphcuildrnjvxwkbgdtqeoylfa', 'mphcuiuvrnjzlwkbgwtqeoylfa', 'mppcuisvrljzxwkbgdtqeoylfw', 'mphcwiwvrnjzxwsbgdtqeoylfa', 'mphcubivrnjzxwkqgdtqeoylfa', 'mphcuisvrnjpxwkngdtqeoylpa', 'pchcuisvrgjzxwkbgdtqeoylfa', 'mphcuisvlnjzxwkbgdtmeoylfw', 'mphcuisvrnjzywkbgdvqeoylfj', 'mpzcuisvrnezxwktgdtqeoylfa', 'mphcuisvrnjbxwkbgzrqeoylfa', 'mphcuisvrnjzxwktgdtqeodtfa', 'jphcuiavrnjzxwkbgdtqeoylfv', 'mphcuisvrnjzxwkbddppeoylfa', 'mphcuissrkjzxwkbgxtqeoylfa', 'mphcuisvrhjzxwxbgdtqeoylxa', 'mphcvisvgnjjxwkbgdtqeoylfa', 'mphcuisprnjwxwtbgdtqeoylfa', 'mphcuissrnjzxqkbgdtqeoymfa', 'mphcuiabrnjzxokbgdtqeoylfa', 'mphcuisvrnczxwkbgmtpeoylfa'];
+const testChecksum = [
+    'abcdef', 'bababc', 'abbcde', 'abcccd', 'aabcdd', 'abcdee', 'ababab'
+];
+const testDifferByOne = [
+    'abcde', 'fghij', 'klmno', 'pqrst', 'fguij', 'axcye', 'wvxyz'
+];
+
+const checksum = (input) => {
+    let letterTwice = 0;
+    let letterThree = 0;
+    input.map( id => {
+        if (checkOccurrence(id, 2)) letterTwice++;
+        if (checkOccurrence(id, 3)) letterThree++;
+    });
+    return letterTwice * letterThree;
+}
+
+const checkOccurrence = (id, n) => {
+    const occurrences = new Object();
+    id.split('').map(letter => occurrences[letter] = occurrences[letter] + 1 || 1);
+    return Object.values(occurrences).some(occurrence => occurrence === n);
+}
+
+const checkIds = (input) => {
+    for ( id1 of input) {
+        for ( id2 of input ) {
+            if (id1 === id2) continue;
+            let differ = checkDifferBy(1, id1, id2);
+            if (differ) return differ; 
+        }
+    }
+}
+
+const checkDifferBy = (differBy, id1, id2) => {
+    let [res, initialLength] = [id1.split(''), id1.length];
+    for (let i = 0; i < id1.length; i++) {
+        if (id1.charAt(i) !== id2.charAt(i)) res[i] = '';
+    }
+    res = res.join('');
+    return (res.length >= initialLength - differBy) ? res : false;
+}
+
+// checksum(input); checkIds(input);
